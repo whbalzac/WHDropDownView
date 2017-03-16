@@ -1,30 +1,31 @@
 # WHDropDownView
 UINavigationController, UIViewController, UITabBarController, every VC can add this View.
 
->###开门见山，先看效果图
+>开门见山，先看效果图
 
-![下拉内容，内容为新闻](http://upload-images.jianshu.io/upload_images/2963444-263805e8982e33e8.gif =375x667)
+![下拉内容，内容为新闻](http://upload-images.jianshu.io/upload_images/2963444-263805e8982e33e8.gif?imageMogr2/auto-orient/strip =375x667)
 
 
 现在的移动端，用户的**“使用时长”**越来越得到重视。大量的App也使出浑身解数提高用户在自身App的使用时长。
 **“内容页”**应用而生，内容页有很多形式，新闻，资讯，热点，微博，都可以充当内容页的主体，在一定程度上提高了用户的使用时长。
 如何在现有的客户端UI上完美嵌入内容页，是很多App都在思考的问题。
 因为现在大部分App的主体框架是TabBar载体。自然而然想到增加一个Tab。例如百度云，爱奇艺。
-![百度云<看吧>](http://upload-images.jianshu.io/upload_images/2963444-19692e50cb0e287f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/310)
+
+![百度云<看吧>](http://upload-images.jianshu.io/upload_images/2963444-19692e50cb0e287f.png =375x667)
 
 
 个人感觉这种方式不够优雅，于是也趁着hackday，写了一份下**拉内容页**。
 
 ---
 
->###WHDropDownView 动画
+>WHDropDownView 动画
 
 说说动画实现和难点吧。UI分为两部分：
 
 1. indicatorView（boomup，waggle）
 2. contentView（拖动动画）
 
-####boomup动画
+boomup动画
 
 ![boomup.gif](http://upload-images.jianshu.io/upload_images/2963444-63a593135d5060d6.gif?imageMogr2/auto-orient/strip)
 
@@ -90,7 +91,7 @@ boomup是3个简单动画叠加的：
 - 每次切换到这个VC
 - 第一次进入这个VC
 
-####waggle动画
+waggle动画
 
 ![wanggle.gif](http://upload-images.jianshu.io/upload_images/2963444-18531588aab08992.gif?imageMogr2/auto-orient/strip)
 
@@ -185,7 +186,7 @@ boomup是3个简单动画叠加的：
 - UIPanGestureRecognizer
 
 ---
->###WHDropDownView 接入说明
+>WHDropDownView 接入说明
 
 无论是 **UINavigationController, UIViewController, UITabBarController** 都能完美嵌入，界面右上角悬挂绳索饰品，下拉点击就出内容页。
 
