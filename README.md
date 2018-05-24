@@ -3,17 +3,16 @@ UINavigationController, UIViewController, UITabBarController, every VC can add t
 
 >开门见山，先看效果图
 
-![下拉内容，内容为新闻](http://upload-images.jianshu.io/upload_images/2963444-263805e8982e33e8.gif?imageMogr2/auto-orient/strip)
-
-
+<div  align="center">  
+<img src="http://upload-images.jianshu.io/upload_images/2963444-263805e8982e33e8.gif?imageMogr2/auto-orient/strip" width = "50%"/>
+</div>
 现在的移动端，用户的**“使用时长”**越来越得到重视。大量的App也使出浑身解数提高用户在自身App的使用时长。
 **“内容页”**应用而生，内容页有很多形式，新闻，资讯，热点，微博，都可以充当内容页的主体，在一定程度上提高了用户的使用时长。
 如何在现有的客户端UI上完美嵌入内容页，是很多App都在思考的问题。
 因为现在大部分App的主体框架是TabBar载体。自然而然想到增加一个Tab。例如百度云，爱奇艺。
-
-![百度云<看吧>](http://upload-images.jianshu.io/upload_images/2963444-19692e50cb0e287f.png)
-
-
+<div  align="center">  
+<img src="http://upload-images.jianshu.io/upload_images/2963444-19692e50cb0e287f.png" width = "50%" alt="百度云<看吧>"/>
+</div>
 个人感觉这种方式不够优雅，于是也趁着hackday，写了一份下**拉内容页**。
 
 ---
